@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.FoodDelivery</groupId>
-	<artifactId>user</artifactId>
+	<artifactId>AdminService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>user</name>
+	<name>AdminService</name>
 	<description>Food delivery for user</description>
 	<url/>
 	<licenses>
@@ -97,6 +97,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>admin-service</finalName>
 	</build>
 
 </project>
