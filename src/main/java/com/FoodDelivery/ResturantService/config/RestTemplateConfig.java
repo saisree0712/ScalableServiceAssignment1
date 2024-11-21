@@ -1,4 +1,4 @@
-package com.FoodDelivery.AdminService.config;
+package com.FoodDelivery.ResturantService.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

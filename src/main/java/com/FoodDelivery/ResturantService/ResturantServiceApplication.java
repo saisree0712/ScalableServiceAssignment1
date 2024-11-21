@@ -1,14 +1,13 @@
-package com.FoodDelivery.AdminService;
+package com.FoodDelivery.ResturantService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AdminServiceApplication {
+public class ResturantServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AdminServiceApplication.class, args);
+		SpringApplication.run(ResturantServiceApplication.class, args);
 	}
-
 
 }

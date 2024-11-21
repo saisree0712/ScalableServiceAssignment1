@@ -1,11 +1,13 @@
-package com.FoodDelivery.AdminService.model;
+package com.FoodDelivery.ResturantService.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.awt.*;
 import java.util.List;
-@Data
+
+@Data  // Lombok annotation that generates getters, setters, toString, equals, and hashCode methods
+@Document(collection = "Restaurant")
 public class Restaurant {
     @Id
     private String restaurantId;
@@ -14,14 +16,10 @@ public class Restaurant {
     private String cuisine;
     private List<MenuItem> menu;
 
-    @Data
+    // Nested class for menu items
+    @Data  // Lombok annotation for MenuItem class
     public static class MenuItem {
         private String item;
         private double price;
-
-        // Getters and Setters
     }
-
-    // Nested class for menu items
-
 }
